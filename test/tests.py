@@ -45,8 +45,8 @@ tests = [ {'description': 'This test will check no spots taken and all spots ava
    },
 
 
-   {'description': 'This test will check if 4 spot taken and 0 spots available.',
-        'steps': [ {'inputs': [('PINA',0x0F)], 'iterations': 1 } ], 'expected': [('PORTC',0x00)],
+   {'description': 'This test will check if 4 spot taken and 0 spots available and set P7 to 1.',
+        'steps': [ {'inputs': [('PINA',0x0F)], 'iterations': 1 } ], 'expected': [('PORTC',0x80)],
    },
 
 
